@@ -1,11 +1,8 @@
 // Code your solutions in this file
 function writeCards(array, string) {
-    let messages = [];
     for (let i = 0; i < array.length; i++) {
-        messages.push(`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
-
+        console.log(`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
     }
-    return messages;
 }
 
 function countDown(num) {
@@ -14,4 +11,5 @@ function countDown(num) {
         console.log(i)
         i--
     }
+    num;
 }
